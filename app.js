@@ -7,7 +7,7 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 // ✅ Correct VERIFY_TOKEN
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
+const VERIFY_TOKEN = process.env.hello;
 
 // ✅ Webhook verification route
 app.get('/webhook', (req, res) => {
